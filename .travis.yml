@@ -7,8 +7,11 @@ cache:
   directories:
     - $HOME/.cache/pip
 
+# stages:
+#   - name: Test installation
+#   - name: Build from source
+
 python:
-  - "3.4"
   - "3.5"
   - "3.6"
   - "3.7"
