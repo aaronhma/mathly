@@ -18,15 +18,17 @@ python:
   - "3.8"
 
 install:
-  - pip3 install codecov
+  - python3 --version
+  # - pip3 install codecov
 
 script:
   # - pytest
   - python3 --version
-  - python3 -m coverage run mathly/*
+  # - python3 -m coverage run mathly/*
 
 after_success:
-  - python3 -m codecov
+  - python3 --version
+  # - python3 -m codecov
 
 notifications:
   email: false
