@@ -1,3 +1,5 @@
+from .error import MatrixError
+
 __all__ = []
 
 class Matrix:
@@ -19,6 +21,16 @@ class Matrix:
         shape.add(len(self.matrix))
         shape.add(len(self.matrix[0]))
         return shape
+
+    def test_valid_matrix(self) -> bool:
+        return True
+    
+    def transform(self):
+        # X, y = self.get_shape()
+        if self.test_valid_matrix():
+            return self.shape
+        else:
+            raise MatrixError("Invalid matrix!")
     
 matrix = Matrix()
 __all__.extend(matrix.__all__)
