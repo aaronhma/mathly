@@ -8,3 +8,9 @@ class MatrixError(BaseError):
 
 class VectorError(BaseError):
     pass
+
+class MathlyAssertError(AssertionError):
+    pass
+
+class MathlyModuleError(ModuleNotFoundError):
+    pass
