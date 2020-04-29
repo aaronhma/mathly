@@ -24,7 +24,7 @@ setup(
     keywords = ["math", "linear algebra", "mathly"],
     classifiers = [
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python 3.7"
+        # "Programming Language :: Python 3.7"
     ],
     license = "MIT"
 )
