@@ -9,7 +9,7 @@ def load_description(readme="README.md"):
 NAME = "Mathly"
 AUTHOR = "Aaron Ma"
 # VERSION = version.VERSION
-VERSION = "0.0.1"
+VERSION = "0.1.1"
 SHORT_DESCRIPTION = "Mathly is an open-source Python library for mathematics with strong Linear Algebra support."
 LONG_DESCRIPTION = load_description()
 
