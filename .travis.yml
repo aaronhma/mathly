@@ -17,13 +17,11 @@ python:
   - "3.8"
 
 install:
-  - python3 --version
-  # - pip3 install codecov
+  - pip3 install mathly
 
 script:
-  # - pytest
   - python3 --version
-  # - python3 -m coverage run mathly/*
+  - python3 -m "import mathly; d = mathly.factorial(5); assert(d == 120)"
 
 after_success:
   - python3 --version
