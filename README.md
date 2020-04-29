@@ -1,6 +1,17 @@
 # Mathly
-An open-source Python libary for mathematics with strong Linear Algebra support.
+Mathly is an open-source, end-to-end library for mathematics in Python, with strong support for both linear algebra and calculus.
 
 [![Build Status](https://travis-ci.com/aaronhma/mathly.svg?branch=master)](https://travis-ci.com/aaronhma/mathly)
 
-## NOTICE: This is a work in progress! API may change!
+## Getting Started Guide
+
+1. Install with PIP:
+```bash
+$ pip install mathly
+```
+
+Or with Conda:
+```bash
+# NOTE: This won't work yet!
+$ conda install mathly
+```
