@@ -1,19 +1,19 @@
-# from .math import (
-#     cos,
-#     factorial,
-#     sine,
-#     tan,
-#     fabs
-# )
-from geometry import (
+from . import (
+    cos,
+    factorial,
+    sine,
+    tan,
+    fabs
+)
+from .geometry import (
     manhattan
 )
 
-import cos
-import factorial
-import sine
-import tan
-import fabs
+# import cos
+# import factorial
+# import sine
+# import tan
+# import fabs
 
 # Create function alias
 cos = cos.cosine
