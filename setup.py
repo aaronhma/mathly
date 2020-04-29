@@ -1,6 +1,5 @@
 from distutils.core import setup
-from mathly.shared import version
-
+from .mathly.shared import version
 
 def load_description(readme="README.md"):
     with open(readme) as file:
