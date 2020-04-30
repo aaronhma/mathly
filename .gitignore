@@ -2,7 +2,10 @@
 # Generated distribution
 dist
 Mathly.egg-info
+MANIFEST
 
 # Build files
 __pycache__
 *.pyc
+build
+dist

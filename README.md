@@ -16,3 +16,11 @@ Or with Conda:
 # NOTE: This won't work yet!
 $ conda install mathly
 ```
+
+## Building from source
+```bash
+# !! THIS FAILS !!
+$ git clone MATHLY
+$ cd /path/to/mathly
+$ python3 setup.py install
+```

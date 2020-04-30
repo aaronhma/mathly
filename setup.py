@@ -1,7 +1,7 @@
 from setuptools import setup
 
 def load_description(*args):
-    with open(args) as file:
+    with open(str(args[0])) as file:
         return file.read()
 
 
