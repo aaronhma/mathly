@@ -1,0 +1,2 @@
+class MathlyImportError(ImportError):
+    pass

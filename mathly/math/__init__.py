@@ -1,19 +1,13 @@
 from . import (
-    cos,
-    factorial,
-    sine,
-    tan,
-    fabs
+    cos,  # Cosine
+    factorial,  # Factorial
+    sine,  # Sin
+    tan,  # Tan
+    fabs  # Absolute value
 )
 from .geometry import (
     manhattan
 )
-
-# import cos
-# import factorial
-# import sine
-# import tan
-# import fabs
 
 # Create function alias
 cos = cos.cosine
