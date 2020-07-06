@@ -12,5 +12,5 @@ class VectorError(BaseError):
 class MathlyAssertError(AssertionError):
     pass
 
-class MathlyModuleError(ModuleNotFoundError):
-    pass
+# class MathlyModuleError(ModuleNotFoundError):
+#     pass
